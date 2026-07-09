@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Page non trouvée | Plomberie Abel</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="theme-color" content="#0d5fb6" />
+</head>
+<body>
+  <section class="hero" style="text-align:center;padding:100px 20px;">
+    <h1>Oups ! Page non trouvée 😕</h1>
+    <p>La page que vous cherchez n’existe pas ou a été déplacée.</p>
+    <a href="index.html" class="btn primary" style="margin-top:20px;">⬅ Retour à l’accueil</a>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="y"></span> Plomberie Abel — Tous droits réservés.</small>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

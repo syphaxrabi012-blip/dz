@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Politique de confidentialité | Plomberie Abel</title>
+  <meta name="description" content="Politique de confidentialité de Plomberie Abel : types de données collectées, usage et droits des visiteurs." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <meta name="theme-color" content="#0d5fb6" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container">
+      <div class="brand">
+        <img src="logo.png" alt="Logo Plomberie Abel" onerror="this.style.display='none'">
+        <span>Plomberie Abel</span>
+      </div>
+      <a class="cta-phone" href="tel:+14387651485">📞 438&nbsp;765&nbsp;1485</a>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <h1>Politique de confidentialité</h1>
+      <p>Dernière mise à jour : <span id="d"></span></p>
+
+      <h2>Données collectées</h2>
+      <p>Nous collectons les informations que vous nous fournissez via le formulaire de contact : nom, courriel et message.
+         Nous utilisons également des cookies essentiels au fonctionnement du site et, si vous y consentez,
+         des cookies de mesure d’audience.</p>
+
+      <h2>Finalités</h2>
+      <ul>
+        <li>Répondre à vos demandes et vous recontacter.</li>
+        <li>Assurer la sécurité et la performance du site.</li>
+        <li>Mesurer l’audience afin d’améliorer nos services (uniquement avec votre consentement).</li>
+      </ul>
+
+      <h2>Base légale</h2>
+      <p>Intérêt légitime pour l’exploitation du site et consentement pour la mesure d’audience.</p>
+
+      <h2>Conservation</h2>
+      <p>Les messages reçus via le formulaire sont conservés le temps nécessaire au traitement de votre demande.</p>
+
+      <h2>Partage</h2>
+      <p>Nous ne vendons pas vos données. Les prestataires techniques (hébergement, formulaire) peuvent traiter certaines
+         informations strictement nécessaires à leur service.</p>
+
+      <h2>Vos droits</h2>
+      <p>Vous pouvez demander l’accès, la rectification ou la suppression de vos données en nous écrivant à
+         <a href="tel:+14387651485">438&nbsp;765&nbsp;1485</a> (appel) ou via le
+         <a href="contact.html">formulaire de contact</a>.</p>
+
+      <h2>Cookies</h2>
+      <p>Vous pouvez gérer votre consentement via le bandeau en bas du site. Votre choix est conservé dans votre navigateur.</p>
+
+      <p><a class="btn ghost" href="index.html">⬅ Retour à l’accueil</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <small>© <span id="y"></span> Plomberie Abel — Tous droits réservés.</small>
+    </div>
+  </footer>
+
+  <script>
+    const d=new Date();
+    document.getElementById('y').textContent=d.getFullYear();
+    document.getElementById('d').textContent=d.toLocaleDateString('fr-CA',{year:'numeric',month:'long',day:'numeric'});
+  </script>
+</body>
+</html>
